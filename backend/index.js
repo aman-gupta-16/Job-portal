@@ -9,7 +9,7 @@ import jobRouter from "./routes/job.route.js";
 import applicantRouter from "./routes/application.route.js";
 
 const PORT = process.env.PORT || 3000;
-const corsOption = { origin: "http://localhost:5173", credentials: true };
+const corsOption = { origin: "https://jobvikas.onrender.com/", credentials: true };
 
 const app = express();
 
