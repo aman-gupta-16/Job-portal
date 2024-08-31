@@ -36,7 +36,7 @@ const Navbar = () => {
         <div>
           <Link to="/">
             <h1 className="text-2xl font-bold">
-              Job<span className="text-[#F83002]">Portal</span>
+              Job<span className="text-[#F83002]">Vikas</span>
             </h1>
           </Link>
         </div>
