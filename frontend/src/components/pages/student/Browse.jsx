@@ -5,8 +5,6 @@ import { useDispatch, useSelector } from "react-redux";
 import useGetAllJobs from "@/components/hooks/useGetAllJobs";
 import { setSearchQuery } from "@/redux/jobSlice";
 
-const randomJobs = [1, 2, 45];
-
 const Browse = () => {
   useGetAllJobs();
   const { allJobs } = useSelector((state) => state.job);
