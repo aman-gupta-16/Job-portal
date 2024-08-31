@@ -10,7 +10,7 @@ import applicantRouter from "./routes/application.route.js";
 
 const PORT = process.env.PORT || 3000;
 const corsOption = {
-  origin: "https://jobvikas.onrender.com/",
+  origin: "https://jobvikas.onrender.com",
   credentials: true,
 };
 
@@ -19,7 +19,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
-app.use(cors({ origin: "*" }));
+app.use(cors(corsOption));
 app.use(express.static("public"));
 
 //routes
