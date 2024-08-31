@@ -23,10 +23,10 @@ app.use(cors(corsOption));
 app.use(express.static("public"));
 
 //routes
-app.use("/api/v1/user", userRouter);
-app.use("/api/v1/company", companyRouter);
-app.use("/api/v1/job", jobRouter);
-app.use("/api/v1/application", applicantRouter);
+app.use("/user", userRouter);
+app.use("/company", companyRouter);
+app.use("/job", jobRouter);
+app.use("/application", applicantRouter);
 
 app.listen(PORT, () => {
   connectDb();
