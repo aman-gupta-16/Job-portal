@@ -33,8 +33,9 @@
 2. **Install dependencies:**
 
    ```bash
+   cd frontend
    npm install
-   cd client
+   cd backend
    npm install
    ```
 
@@ -53,12 +54,14 @@
 4. **Run the application:**
 
    ```bash
+   cd backend
    npm run dev
-   cd client
+   cd fronterd
    npm run dev
    ```
 
-   The application should now be running at `http://localhost:3000`.
+   The server should now be running at `http://localhost:3000`.
+   The frontend should now be running at `http://localhost:5173`.
 
 ## Usage
 
